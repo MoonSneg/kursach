@@ -11,7 +11,7 @@ nav = [
 hero = [
     {"title": "Танджиро", "URL": "/tanjiro" },
     {"title": "Незуко", "URL": "/nezuko" },
-    {"title": "Тамиока", "URL": "/tamioka" },
+    {"title": "Томиока", "URL": "/tamioka" },
     ]
 
 @app.context_processor
