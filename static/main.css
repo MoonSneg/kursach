@@ -33,6 +33,7 @@
     box-shadow: 0 0 16px red;
     border-radius: 50%; 
     overflow: hidden;
+    transition: 0.5s;
 
 }
 .name_page{
