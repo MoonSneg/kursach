@@ -1,0 +1,63 @@
+{% extends "_layout.html" %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="writer-body">
+                                <div class="writer-roof">
+                                    Это что, Я???
+                                </div>
+                                <div class="writer-main">
+                                    Ничосе, ну всем привет!<br>
+                                    Рад что заглянул ко мне на страничку.<br> 
+                                    Я <span class="writer-style">Грязнов Алексей</span>, студент группы <span class="writer-style">ИСТб-24-3</span>,<br>
+                                    поступил в этому году, так что я ещё тот <span class="writer-style">первокурсник</span>.<br>
+                                    Я состою в <span class="writer-style">СМЦ</span>, так что возможно вы могли видеть мои фотографии.<br>
+                                    Вот некоторые из них:
+                                </div>
+                            </div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="\static\images\p1.jpg" class="d-block w-100" alt="p1">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="\static\images\p2.jpg" class="d-block w-100" alt="p2">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="\static\images\p3.jpg" class="d-block w-100" alt="p3">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="writer-body">
+                    <a class="photo_writer">
+                        <img class="phot" src="static\images\writer.jpg" alt="writer">
+                    </a>
+                    <a class="name_page nav-link" aria-current="page" >My good face 0-0</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %} 

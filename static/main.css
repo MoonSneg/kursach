@@ -1,0 +1,338 @@
+.block{
+    border: 2px solid black;
+}
+.activate_navbar {
+    color: #e61818;
+    font-weight: bold;
+}
+.navbar-brand{
+    margin-right: 425px;
+}
+.navbar-nav .nav-item{
+    margin-right: 100px;
+    font-size: 1.2em !important;
+}
+.hero-roof{
+    font-size: 2em;
+    color: red;
+    font-weight: bold;
+    text-align: center;;
+    margin-top: 16px;
+}
+.photo_hero_link{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo_hero {
+    width: 300px; 
+    height: 300px; 
+    border: 1px solid silver;
+    margin: 8px;
+    box-shadow: 0 0 16px red;
+    border-radius: 50%; 
+    overflow: hidden;
+
+}
+.name_page{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.photo_hero:hover{
+    width: 325px; 
+    height: 325px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 32px skyblue;
+}
+.phot{
+    height: 100%; 
+}
+.writer-style{
+    color: rgb(6, 134, 6); 
+    font-weight: bold;
+}
+.writer-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo_writer{
+    width: 300px; 
+    height: 300px; 
+    border: 1px solid silver;
+    margin: 8px;
+    box-shadow: 0 0 16px rgb(161, 241, 147);
+    border-radius: 25%;
+    overflow: hidden;
+}
+.photo_writer_link{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.writer-roof{
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.writer-main{
+    font-size: 1.2em;
+    color: black;
+    margin: 5px
+}
+.carousel{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 400px !important;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.carousel-inner {
+    overflow: visible;
+}
+.carousel-inner img {
+    left: 50%;
+    max-width: none !important;
+    min-height: 400px;
+    min-width: 100%;
+    position: absolute;
+    top: 200px;
+    transform: translate(-50%,-50%);
+  }
+.photo-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo_tanjiro{
+    width: 275px; 
+    height: 500px; 
+    border: 1px solid silver;
+    margin: 8px;
+    box-shadow: 0 0 20px rgb(241, 152, 43);
+    border-radius: 40px;
+    overflow: hidden;
+}
+.quote-container {
+    background-color: rgba(210, 179, 148, 0.46);
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.quote-container a.highlight {
+    color: rgb(241, 152, 43);
+    font-weight: bold;
+    text-decoration: none;
+}
+.quote-container a.highlight:hover {
+    text-decoration: underline;
+}
+.quote-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.quote-mark {
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    color: #800000;
+}
+
+.quote-mark.left {
+    margin-right: 10px;
+}
+
+.quote-mark.right {
+    margin-left: 10px;
+    align-self: flex-end;
+}
+
+.quote-text {
+    flex: 1;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.quote-citation {
+    text-align: right;
+    margin-top: 1px;
+    font-style: normal;
+    font-size: 14px;
+}
+.hero-info {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-info h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-info .kanji {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+
+.hero-info a.highlight {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+#infoTanjiro a.highlight {
+    color: rgb(241, 152, 43);
+}
+#infoNezuko a.highlight {
+    color: rgb(209, 90, 171);
+}
+#infoTamioka a.highlight {
+    color: rgb(89, 178, 223);
+}
+
+.hero-info a.highlight:hover {
+    text-decoration: underline;
+}
+
+
+.accordion-button.collapsed {
+    background-color: #f8f9fa;
+    color: #212529; 
+}
+.accordion-button:not(.collapsed){
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+#accordionTanjirou .accordion-button:not(.collapsed) {
+    background-color:rgb(227, 177, 116);
+    box-shadow: 0 0 12px rgb(227, 156, 68);
+}
+#accordionNezuko .accordion-button:not(.collapsed) {
+    background-color: rgb(209, 90, 171);
+    box-shadow: 0 0 12px rgb(206, 42, 154);
+}
+#accordionTamioka .accordion-button:not(.collapsed) {
+    background-color: rgb(89, 178, 223);
+    box-shadow: 0 0 12px rgb(54, 170, 228);
+}
+#accordionTanjirou .accordion-button:focus {
+    box-shadow: 0 0 12px rgb(227, 156, 68);
+}
+#accordionNezuko .accordion-button:focus {
+    box-shadow: 0 0 12px rgb(206, 42, 154);
+}
+#accordionTamioka .accordion-button:focus {
+    box-shadow: 0 0 12px rgb(54, 170, 228);
+}
+
+.btn-orange {
+    margin-top: 5px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.btn-orange:hover {
+    background-color: #e3440b;
+    color: white;
+}
+.btn-pink {
+    margin-top: 5px;
+   background-color: rgb(209, 90, 171);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 8px;
+   transition: background-color 0.3s ease;
+}
+.btn-pink:hover {
+    background-color: rgb(137, 56, 111);
+    color: white;
+}
+.photo_nezuko{
+    width: 275px; 
+    height: 500px; 
+    border: 1px solid silver;
+    margin: 8px;
+    box-shadow: 0 0 20px rgb(209, 90, 171);
+    border-radius: 40px;
+    overflow: hidden;
+}
+.btn-skyblue {
+    margin-top: 5px;
+   background-color: rgb(89, 178, 223);
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   border-radius: 8px;
+   transition: background-color 0.3s ease;
+}
+.btn-skyblue:hover {
+    background-color: rgba(80, 156, 195, 0.844);
+    color: white;
+}
+.photo_tamioka{
+    width: 275px; 
+    height: 500px; 
+    border: 1px solid silver;
+    margin: 8px;
+    box-shadow: 0 0 20px rgb(89, 178, 223);
+    border-radius: 40px;
+    overflow: hidden;
+}
+.glossary {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #ff4500;
+    margin-bottom: 20px;
+}
+
+.term {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 5px;
+    border-left: 5px solid #ff4500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.term h2 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.term p {
+    margin: 10px 0 0;
+    color: #555;
+    line-height: 1.6;
+}
