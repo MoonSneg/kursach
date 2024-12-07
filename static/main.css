@@ -1,6 +1,8 @@
-.block{
-    border: 2px solid black;
-}
+body {
+    margin: 0;
+    padding: 0 0 50px 0; /* Отступ внизу */
+    box-sizing: border-box;
+  }
 .activate_navbar {
     color: #e61818;
     font-weight: bold;
