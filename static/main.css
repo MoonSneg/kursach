@@ -61,6 +61,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.writer-body-text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .photo_writer{
     width: 300px; 
     height: 300px; 
@@ -84,7 +90,8 @@ body {
 .writer-main{
     font-size: 1.2em;
     color: black;
-    margin: 5px
+    margin: 5px;
+    margin-bottom: 60px;
 }
 .carousel{
     margin-top: 8px;
