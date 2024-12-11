@@ -96,9 +96,8 @@ body {
 .carousel{
     margin-top: 8px;
     margin-bottom: 15px;
-    height: 400px !important;
+    height: 500px !important;
     overflow: hidden;
-    border-radius: 30px;
 }
 .carousel-inner {
     overflow: visible;
@@ -106,7 +105,7 @@ body {
 .carousel-inner img {
     left: 50%;
     max-width: none !important;
-    min-height: 400px;
+    min-height: 475px;
     min-width: 100%;
     position: absolute;
     top: 200px;
@@ -346,10 +345,28 @@ h1 {
     color: #555;
     line-height: 1.6;
 }
-
 @media (max-width:  1280px) {
     .row {
         justify-content: center;
         align-items: center;
     }
+}
+.index-main-roof-text{
+    text-align: center;
+    color: #ff4500;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.index-main-body-text{
+    text-align: center;
+    color: #ff4500;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.hightlight-term{
+    background-color: rgba(255, 0, 0, 0.167); /* Цвет подсветки */
+    transition: background-color 1s ease; /* Плавное исчезновение */
+    
 }

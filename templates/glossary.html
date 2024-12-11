@@ -3,6 +3,14 @@
 {% block content %}
 <div class="glossary">
     <h1>Список терминов</h1>
+    <div class="term" id="Manga">
+        <h2>Манга</h2>
+        <p>японские комиксы, иногда называемые комикку</p>
+    </div>
+    <div class="term" id="Anime">
+        <h2>Аниме́</h2>
+        <p>японская мультипликация. В отличие от мультфильмов других стран, предназначенных, в основном, для просмотра детьми, бо́льшая часть выпускаемого аниме рассчитана на подростковую и взрослую аудитории, и во многом за счёт этого имеет большую популярность в мире</p>
+    </div>
     <div class="term" id="Demon">
         <h2>Демоны (鬼 Oni)</h2>
         <p>Существа, которые убивают и едят людей. Самым первым демоном является Мудзан Кибуцуджи, чья кровь способствует появлению новых демонов.</p>
@@ -24,4 +32,19 @@
         <p>Спасибо им!</p>
     </div>
 </div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const hash = window.location.hash;
+        if (hash) {
+            const target = document.querySelector(hash);
+            if (target) {
+                target.classList.add("hightlight-term");
+                setTimeout(() => {
+                    target.classList.remove("hightlight-term");
+                }, 2000);
+            }
+        }
+    });
+</script>
+
 {% endblock %}
