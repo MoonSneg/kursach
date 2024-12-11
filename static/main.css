@@ -14,13 +14,6 @@ body {
     margin-right: 100px;
     font-size: 1.2em !important;
 }
-.hero-roof{
-    font-size: 2em;
-    color: red;
-    font-weight: bold;
-    text-align: center;;
-    margin-top: 16px;
-}
 .photo_hero_link{
     margin-top: 30px;
     display: flex;
@@ -105,10 +98,10 @@ body {
 .carousel-inner img {
     left: 50%;
     max-width: none !important;
-    min-height: 475px;
+    min-height: 200px;
     min-width: 100%;
     position: absolute;
-    top: 200px;
+    top: 230px;
     transform: translate(-50%,-50%);
   }
 .photo-body{
@@ -369,4 +362,9 @@ h1 {
     background-color: rgba(255, 0, 0, 0.167); /* Цвет подсветки */
     transition: background-color 1s ease; /* Плавное исчезновение */
     
+}
+.text-main{
+    border-bottom: 2px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
 }
