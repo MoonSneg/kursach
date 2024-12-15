@@ -1,8 +1,16 @@
 body {
+     /* Вертикальное размещение элементов */
     margin: 0;
     padding: 0 0 50px 0; /* Отступ внизу */
     box-sizing: border-box;
-  }
+}
+main {
+    flex: 1; /* Основное содержимое занимает всю доступную высоту */
+}
+
+.footer {
+    margin-top: 20px; /* Отступ от верхнего контента */
+}
 .activate_navbar {
     color: #e61818;
     font-weight: bold;
@@ -19,6 +27,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 }
 .photo_hero {
     width: 300px; 
